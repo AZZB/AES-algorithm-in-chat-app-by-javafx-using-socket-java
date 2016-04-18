@@ -39,7 +39,7 @@ public class TaskClient  implements Runnable {
             byte[] b = new byte[1024];
             while((read = in.read(b)) != -1){
 
-                str = new String(b).substring(0, read);
+                str = new String(b).substring(0, read - 8);
                 System.out.println("len is : " + str.length());
                 System.out.println("msg is : " + str);
                 if(str.equals("exit")) break;
