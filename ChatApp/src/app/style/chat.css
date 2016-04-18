@@ -1,0 +1,110 @@
+.background_content{
+    -fx-background-color: #202220;
+}
+
+.nav_content{
+    -fx-background-color: #00a7d4;
+}
+
+.nav_content_rose{
+    -fx-background-color: #d42e63;
+}
+.nav_content Text{
+    -fx-fill: #f7f7f7;
+}
+.nav_content_rose Text{
+    -fx-fill: #f7f7f7;
+}
+
+.btn_reduice,
+.btn_close{
+    -fx-background-color: transparent;
+    -fx-content-display: graphic-only;
+    -fx-cursor: hand;
+}
+
+.btn_reduice:selected,
+.btn_reduice:hover,
+.btn_close:selected,
+.btn_close:hover{
+    -fx-opacity: 0.8;
+    -fx-background-color: #484648;
+}
+
+.btn_close{
+    -fx-graphic: url("../../app/img/close.png");
+}
+.btn_reduice{
+    -fx-graphic: url("../../app/img/reduice.png");
+}
+
+.tf_message{
+    -fx-background-radius: 5;
+    /*-fx-font-size: 1.1em;*/
+    -fx-text-fill: rgba(67, 67, 63, 0.91);
+}
+.tf_message Text{
+    /*/-fx-text-fill: #383b38;
+    /*-fx-font-size: 1.5em;*/
+}
+
+.btn_send, .btn_send:focused{
+
+    -fx-font-size: 13.0px;
+    -fx-base: #00a7d4;
+    -fx-background: #e5f3f6;
+    -fx-focus-color: #0093FF;
+    -fx-control-inner-background: #FFFFFF;
+    -fx-text-base-color: #FFFFFF;
+    -fx-background-color:#00a7d4;
+    -fx-inner-border: linear-gradient(to bottom, derive(-fx-color,73.6%) 0%, derive(-fx-color,29.200000000000003%) 100%);
+    -fx-body-color: linear-gradient( to bottom, derive(-fx-color, 34.0%) 0%, derive(-fx-color, -18.0%) 100%);
+    -fx-background-insets: 0px;
+    -fx-background-radius: 0px;
+    -fx-padding: 0.166667em 0.833333em 0.25em 0.833333em; /* 2 10 3 10 */
+    -fx-text-fill: -fx-text-base-color;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+
+}
+.btn_send:hover{
+    -fx-focus-color: #FF0000;
+    -fx-background-color: #ED9C28, #0187ab;
+}
+
+.btn_send:pressed{
+    -fx-focus-color: #FF0000;
+    -fx-background-color: #ED9C28, #3e454b;
+}
+/*.btn_send:focused{
+    -fx-color:#00a7d4;
+    -fx-background-color: #565652, #00a7d4;
+    -fx-background-insets: -1.4, 0, 1, 2;
+    -fx-background-radius: 0;
+}/
+
+.btn_send Text{
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}*/
+
+#msg{
+    -fx-font-family: Arial, Helvetica, sans-serif;
+
+    -fx-fill: #FFFFFF;
+
+}
+
+#pane{
+    -fx-padding: 5 5 5 5;
+}
+
+#flow{
+    -fx-background-color: #00a7d4;
+    -fx-padding: 5 5 5 5;
+}
+
+#flow_by_client{
+    -fx-background-color: rgba(63, 64, 59, 0.89);
+    -fx-padding: 5 5 5 5;
+}
